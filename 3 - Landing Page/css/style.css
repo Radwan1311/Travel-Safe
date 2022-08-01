@@ -1,0 +1,52 @@
+        /* Font Families  */
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Source Serif Pro', serif; */
+
+
+
+/* THML Selectors */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Serif Pro', serif;
+  background-image: url('https://images.unsplash.com/photo-1519055548599-6d4d129508c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+/* Classes */
+.logo{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Sacramento', cursive;
+
+}
+
+.nav{
+padding: 1%;
+background-color: transparent;
+}
+
+.nav-item{
+  font-size: 1.5rem;
+
+}
+
+
+.search-bar{
+  width: 60%;
+  margin: auto;
+  height: auto;
+  margin-top: 4%;
+}
+
+.search-lable{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  height: 80px;
+  border-radius: 30px;
+  opacity: 0.8;
+}
